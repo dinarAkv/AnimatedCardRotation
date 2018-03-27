@@ -1,2 +1,0 @@
-# AnimatedCardRotation
-Created with CodeSandbox

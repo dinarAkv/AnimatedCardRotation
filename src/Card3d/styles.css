@@ -1,0 +1,32 @@
+.card {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  transition: all 4s linear;
+  transition-timing-function: cubic-bezier(0.45, 1.93, 0.76, 0.19);
+  transform-style: preserve-3d;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.side {
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: blueviolet;
+}
+
+.back {
+  background-color: yellowgreen;
+  transform: rotateY(180deg);
+}
